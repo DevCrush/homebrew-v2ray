@@ -1,5 +1,6 @@
 # homebrew-v2ray
 Homebrew tap for [v2ray-core](https://github.com/v2ray/v2ray-core).
+current version v3.0
 
 # Install
 ```shell
