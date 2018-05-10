@@ -1,9 +1,9 @@
 class V2rayCore < Formula
   desc "A platform for building proxies to bypass network restrictions."
   homepage "https://www.v2ray.com/"
-  url "https://github.com/v2ray/v2ray-core/releases/download/v3.0/v2ray-macos.zip"
-  version "v3.0"
-  sha256 "ce8a526b7c2b7855350bba0efb335061248be84b6de2201af10e1c95cadf27ec"
+  url "https://github.com/v2ray/v2ray-core/releases/download/v3.6/v2ray-macos.zip"
+  version "v3.6"
+  sha256 "0108197bb4831cd66e274f98f9c0ea5dcc3315fa4e774520874e3e4f01d89afb"
 
   def install
     bin.install "v2ray"
@@ -12,6 +12,7 @@ class V2rayCore < Formula
     bin.install "v2ray.sig"
     bin.install "geosite.dat"
     bin.install "geoip.dat"
+    bin.install "readme.md"
     
     etc.install "config.json"
   end
